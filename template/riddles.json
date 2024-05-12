@@ -1,0 +1,18 @@
+[
+  {
+    "text": "Из какой посуды нельзя ничего поесть?",
+    "answer": "Из пустой",
+    "category": 100,
+    "create_at": "CURRENT_TIMESTAMP",
+    "riddle_type": 100,
+    "riddle_age": 800
+  },
+  {
+    "text": "Маленький, серенький на слона похож?",
+    "answer": "Слоненок",
+    "category": 100,
+    "create_at": "CURRENT_TIMESTAMP",
+    "riddle_type": 100,
+    "riddle_age": 800
+  }
+]
