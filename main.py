@@ -62,8 +62,13 @@ def main():
     data = load_json_file(file_name)
     table_name = get_table_name(file_name)
     client = PostgresClient(DATABASE_CONFIG)
-    dump = create_riddle_dump(_select(client=client, table_name=table_name))
-    save_json_file("fiddles_dump.json", dump)
+
+    # Uncomment two rows low for get dump
+    # dump = create_riddle_dump(_select(client=client, table_name=table_name))
+    # save_json_file("fiddles_dump.json", dump)
+
+    # For insert a data to table into db use a _insert method
+    _insert(client=client, table_name=table_name, data=data)
 
 
 if __name__ == '__main__':
